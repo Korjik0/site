@@ -1,0 +1,97 @@
+*{
+    font-family: sans-serif ;
+    
+}
+#main{
+    width: 70%;
+    height: 600px;
+    margin: auto;
+    background-color:white;
+    display: flex;
+    flex-direction:end;
+    margin-top: 100px;
+}
+.imane{
+    width: 400px;
+    height: 600px;
+    background: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/7bd1b0c212f85e33b03d36b8/pexels-alina-matveycheva-12079275.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+#inmain1{
+
+width: 100%;
+height: 100%;
+
+}
+.inmain2{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 15px;
+    display: flex;
+justify-content: space-between;
+font-size: 20px;
+
+
+
+}
+input, select, textarea {
+    width: 100%;
+    border: none;
+    border-bottom: solid ;
+    padding: 10px 12px;
+
+}
+
+@media (max-width:860px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    img,.text{
+width: 60%;
+    }
+}  
+
+.input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#main2{
+color: #111;
+width: 700px;
+height: 600px;
+padding: 30px 30px 29px;
+margin: 0px 0px 0px 15px;
+
+
+
+}
+.submit1{
+    width: 133px;
+    height: 111px;
+}
+.submit{
+    background-color: #9ca1ca;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 700;
+   
+        border-style: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 700;
+       margin-left: auto;
+       width: 150px;
+       height: 45px;
+       font-size: 1em sans-serif;
+
+
+      
+
+};
+
+
+
